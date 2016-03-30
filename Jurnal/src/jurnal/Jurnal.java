@@ -12,11 +12,12 @@ public class Jurnal {
         int hasil = 0;
         
         Scanner sc = new Scanner(System.in);
-	System.out.print("Masukkanpa deret fibonacci ? ");
+	System.out.print("Masukkan angka deret fibonacci ? ");
 	z = sc.nextInt();
 	for(int i=1;i<=z;i++){
             x=y;
             y=hasil;
+            int jumlah =z+y;
             System.out.print(hasil+" ");
             hasil=x+y;
         }
